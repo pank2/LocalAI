@@ -175,7 +175,7 @@
     - qwen3
     - thinking
     - reasoning
-  name: "qwen3-vl-30b-a3b-thinking-Instruct"
+  name: "qwen3-vl-30b-a3b-instruct"
   urls:
     - https://hf-mirror.com/unsloth/Qwen3-VL-30B-A3B-Instruct-GGUF
   description: |
