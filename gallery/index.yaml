@@ -2,7 +2,7 @@
 - name: "huihui-glm-4.6v-flash-abliterated"
   url: "github:mudler/LocalAI/gallery/virtual.yaml@master"
   urls:
-    - https://huggingface.co/huihui-ai/Huihui-GLM-4.6V-Flash-abliterated-GGUF
+    - https://hf-mirror.com/huihui-ai/Huihui-GLM-4.6V-Flash-abliterated-GGUF
   description: |
     **Huihui-GLM-4.6V-Flash (Abliterated)**
     A text-based large language model derived from the **zai-org/GLM-4.6V-Flash** base model, featuring reduced safety filters and uncensored capabilities. Designed for text generation, it supports conversational tasks but excludes image processing.
@@ -43,16 +43,16 @@
       grammar:
         disable: true
     mmproj: llama-cpp/mmproj/mmproj-model-f16.gguf
-    description: Imported from https://huggingface.co/huihui-ai/Huihui-GLM-4.6V-Flash-abliterated-GGUF
+    description: Imported from https://hf-mirror.com/huihui-ai/Huihui-GLM-4.6V-Flash-abliterated-GGUF
     options:
       - use_jinja:true
   files:
     - filename: llama-cpp/models/ggml-model-Q4_K_M.gguf
       sha256: 14145c3c95a21c7251362ac80d9bde72a3c6e129ca834ac3c57efe2277409699
-      uri: https://huggingface.co/huihui-ai/Huihui-GLM-4.6V-Flash-abliterated-GGUF/resolve/main/ggml-model-Q4_K_M.gguf
+      uri: https://hf-mirror.com/huihui-ai/Huihui-GLM-4.6V-Flash-abliterated-GGUF/resolve/main/ggml-model-Q4_K_M.gguf
     - filename: llama-cpp/mmproj/mmproj-model-f16.gguf
       sha256: 1044beaf5cb799d309b1252ac149a985b69f1cf0391f7c8c54e7aed267bc98a9
-      uri: https://huggingface.co/huihui-ai/Huihui-GLM-4.6V-Flash-abliterated-GGUF/resolve/main/mmproj-model-f16.gguf
+      uri: https://hf-mirror.com/huihui-ai/Huihui-GLM-4.6V-Flash-abliterated-GGUF/resolve/main/mmproj-model-f16.gguf
 - name: "qwen3-coder-30b-a3b-instruct-rtpurbo-i1"
   url: "github:mudler/LocalAI/gallery/virtual.yaml@master"
   urls:
@@ -1097,7 +1097,7 @@
     name: "outetts"
     description: "OuteTTS is a 1.6B parameter text to speech model created by OuteAI."
     parameters:
-      model: OuteAI/OuteTTS-0.3-1B
+      model: OuteTTS-0.3-1B/
     type: OuteTTS
     known_usecases:
       - tts
@@ -2332,7 +2332,7 @@
     - gpu
     - cpu
   urls:
-    - https://huggingface.co/Qwen/Qwen3-Embedding-4B-GGUF
+    - https://hf-mirror.com/Qwen/Qwen3-Embedding-4B-GGUF
   description: |
     The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B). This series inherits the exceptional multilingual capabilities, long-text understanding, and reasoning skills of its foundational model. The Qwen3 Embedding series represents significant advancements in multiple text embedding and ranking tasks, including text retrieval, code retrieval, text classification, text clustering, and bitext mining.
     **Exceptional Versatility**: The embedding model has achieved state-of-the-art performance across a wide range of downstream application evaluations. The 8B size embedding model ranks **No.1** in the MTEB multilingual leaderboard (as of June 5, 2025, score **70.58**), while the reranking model excels in various text retrieval scenarios.
@@ -2351,7 +2351,7 @@
       model: Qwen3-Embedding-4B-Q4_K_M.gguf
   files:
     - filename: Qwen3-Embedding-4B-Q4_K_M.gguf
-      uri: huggingface://Qwen/Qwen3-Embedding-4B-GGUF/Qwen3-Embedding-4B-Q4_K_M.gguf
+      uri: https://hf-mirror.com/Qwen/Qwen3-Embedding-4B-GGUF/resolve/main/Qwen3-Embedding-4B-Q4_K_M.gguf
       sha256: 2b0cf8f17b4c723c27303015383c27ec4bf2d8314bb677d05e920dd70bb0f16b
 - !!merge <<: *qwen3
   name: "qwen3-embedding-8b"
@@ -2362,7 +2362,7 @@
     - gpu
     - cpu
   urls:
-    - https://huggingface.co/Qwen/Qwen3-Embedding-8B-GGUF
+    - https://hf-mirror.com/Qwen/Qwen3-Embedding-8B-GGUF
   description: |
     The Qwen3 Embedding series model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B). This series inherits the exceptional multilingual capabilities, long-text understanding, and reasoning skills of its foundational model. The Qwen3 Embedding series represents significant advancements in multiple text embedding and ranking tasks, including text retrieval, code retrieval, text classification, text clustering, and bitext mining.
     **Exceptional Versatility**: The embedding model has achieved state-of-the-art performance across a wide range of downstream application evaluations. The 8B size embedding model ranks **No.1** in the MTEB multilingual leaderboard (as of June 5, 2025, score **70.58**), while the reranking model excels in various text retrieval scenarios.
@@ -2381,7 +2381,7 @@
       model: Qwen3-Embedding-8B-Q4_K_M.gguf
   files:
     - filename: Qwen3-Embedding-8B-Q4_K_M.gguf
-      uri: huggingface://Qwen/Qwen3-Embedding-8B-GGUF/Qwen3-Embedding-8B-Q4_K_M.gguf
+      uri: https://hf-mirror.com/Qwen/Qwen3-Embedding-8B-GGUF/resolve/main/Qwen3-Embedding-8B-Q4_K_M.gguf
       sha256: 3fcd3febec8b3fd64435204db75bf0dd73b91e8d0661e0331acfe7e7c3120b85
 - !!merge <<: *qwen3
   name: "qwen3-embedding-0.6b"
@@ -2392,7 +2392,7 @@
     - gpu
     - cpu
   urls:
-    - https://huggingface.co/Qwen/Qwen3-Embedding-0.6B-GGUF
+    - https://hf-mirror.com/Qwen/Qwen3-Embedding-0.6B-GGUF
   description: |
     The Qwen3 Embedding model series is the latest proprietary model of the Qwen family, specifically designed for text embedding and ranking tasks. Building upon the dense foundational models of the Qwen3 series, it provides a comprehensive range of text embeddings and reranking models in various sizes (0.6B, 4B, and 8B). This series inherits the exceptional multilingual capabilities, long-text understanding, and reasoning skills of its foundational model. The Qwen3 Embedding series represents significant advancements in multiple text embedding and ranking tasks, including text retrieval, code retrieval, text classification, text clustering, and bitext mining.
     **Exceptional Versatility**: The embedding model has achieved state-of-the-art performance across a wide range of downstream application evaluations. The 8B size embedding model ranks **No.1** in the MTEB multilingual leaderboard (as of June 5, 2025, score **70.58**), while the reranking model excels in various text retrieval scenarios.
@@ -2411,7 +2411,7 @@
       model: Qwen3-Embedding-0.6B-Q8_0.gguf
   files:
     - filename: Qwen3-Embedding-0.6B-Q8_0.gguf
-      uri: huggingface://Qwen/Qwen3-Embedding-0.6B-GGUF/Qwen3-Embedding-0.6B-Q8_0.gguf
+      uri: https://hf-mirror.com/Qwen/Qwen3-Embedding-0.6B-GGUF/resolve/main/Qwen3-Embedding-0.6B-Q8_0.gguf
       sha256: 06507c7b42688469c4e7298b0a1e16deff06caf291cf0a5b278c308249c3e439
 - !!merge <<: *qwen3
   name: "yanfei-v2-qwen3-32b"
@@ -3011,8 +3011,8 @@
 - !!merge <<: *qwen3
   name: "qwen_qwen3-30b-a3b-instruct-2507"
   urls:
-    - https://huggingface.co/Qwen/Qwen3-30B-A3B-Instruct-2507
-    - https://huggingface.co/bartowski/Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF
+    - https://hf-mirror.com/Qwen/Qwen3-30B-A3B-Instruct-2507
+    - https://hf-mirror.com/bartowski/Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF
   description: |
     We introduce the updated version of the Qwen3-30B-A3B non-thinking mode, named Qwen3-30B-A3B-Instruct-2507, featuring the following key enhancements:
 
@@ -3026,7 +3026,7 @@
   files:
     - filename: Qwen_Qwen3-30B-A3B-Instruct-2507-Q4_K_M.gguf
       sha256: 382b4f5a164d200f93790ee0e339fae12852896d23485cfb203ce868fea33a95
-      uri: huggingface://bartowski/Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF/Qwen_Qwen3-30B-A3B-Instruct-2507-Q4_K_M.gguf
+      uri: https://hf-mirror.com/bartowski/Qwen_Qwen3-30B-A3B-Instruct-2507-GGUF/resolve/main/Qwen_Qwen3-30B-A3B-Instruct-2507-Q4_K_M.gguf
 - !!merge <<: *qwen3
   name: "qwen_qwen3-30b-a3b-thinking-2507"
   urls:
@@ -12783,7 +12783,7 @@
       model: ggml-small-q5_1.bin
   files:
     - filename: "ggml-small-q5_1.bin"
-      uri: "huggingface://ggerganov/whisper.cpp/ggml-small-q5_1.bin"
+      uri: "https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main/ggml-small-q5_1.bin"
       sha256: ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb
 - !!merge <<: *whisper
   name: "whisper-small"
